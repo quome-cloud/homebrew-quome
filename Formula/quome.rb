@@ -1,17 +1,17 @@
 class Quome < Formula
   desc "CLI for the Quome platform"
   homepage "https://github.com/quome-cloud/quome-cli"
-  version "0.2.2"
+  version "0.2.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/quome-cloud/quome-cli/releases/download/v0.2.2/quome-darwin-arm64.tar.gz"
-      sha256 "7aaa78fbf1f7b58d35c5ce0ffed74cd591b3074588ff32d85843cbdacb68181f"
+      url "https://github.com/quome-cloud/quome-cli/releases/download/v0.2.3/quome-darwin-arm64.tar.gz"
+      sha256 "749301206db71504acf4627413dc8043ac5f9c138ed2a2054f067055450de508"
     end
     on_intel do
-      url "https://github.com/quome-cloud/quome-cli/releases/download/v0.2.2/quome-darwin-x64.tar.gz"
-      sha256 "d7b18dcfdfd1f1f9d888084f069e54267f3d535d7becf0988c447b9ed030f30c"
+      url "https://github.com/quome-cloud/quome-cli/releases/download/v0.2.3/quome-darwin-x64.tar.gz"
+      sha256 "212e062ddd0b8110c4316f8dd9b76c14fab1b601f9166331b92514da5a6b1a75"
     end
   end
 
